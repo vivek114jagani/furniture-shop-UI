@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:src="@drawable/logo" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:text="log in / sign up"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:gravity="center_horizontal|top" />
+        <Button
+            android:id="@+id/introduction_login_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="@color/light_sugar"
+            android:text="log in"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:cornerRadius="10dp" />
+        <Button
+            android:id="@+id/introduction_signUp_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="370dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="@color/light_sugar"
+            android:text="sign up"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            app:cornerRadius="10dp" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="475dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="or sign in with"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textColor="#FFFFFF" />
+        <ImageButton
+            android:id="@+id/signUp_with_apple"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="510dp"
+            android:background="@drawable/apple"
+            />
+        <ImageButton
+            android:id="@+id/signUp_with_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="580dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/facebook"/>
+        <ImageButton
+            android:id="@+id/signUp_with_google"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="650dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/google"/>
+</RelativeLayout>
